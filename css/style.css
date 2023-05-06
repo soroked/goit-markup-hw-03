@@ -1,0 +1,188 @@
+:root {
+  --primary-bg-color: #ffffff;
+  --accent-color: #4d5ae5;
+  --title-text-color: #2e2f42;
+  --primary-text-color: #434455;
+  --hero-bg-color: #2e2f42;
+  /* hover-focus-color */
+  /* fonts */
+  --footer-text-color: #f4f4fd;
+  --footer-bg-color: #2e2f42;
+
+  /* portfolio */
+  --button-bg-color: #f4f4fd;
+}
+
+/* default */
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+/* common */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--primary-text-color);
+  background-color: var(--primary-bg-color);
+}
+
+.section-title {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--title-text-color);
+}
+
+.section-subtitle {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+
+.section-text {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+/* header */
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--accent-color);
+}
+
+.secondary-text-color {
+  color: var(--title-text-color);
+}
+
+.nav-item {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+
+.nav .link:hover,
+.nav .link:focus {
+  color: #404bbf;
+}
+
+/* this rule is duplicated in nav-conto-item */
+.nav-contact {
+  font-style: normal;
+}
+
+.nav-contact-item {
+  font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.nav-contact-item:hover,
+.nav-contact-item:focus {
+  color: #404bbf;
+}
+
+/* main */
+
+/* hero */
+
+.hero {
+  background-color: var(--hero-bg-color);
+}
+
+.hero-title {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
+}
+
+/* secction-2-advantages */
+
+/* section-3-services */
+
+/* section-4-about-us */
+
+.services {
+  background-color: #f4f4fd;
+}
+
+.section-subtitle.services {
+  text-align: center;
+}
+
+.services-item {
+  background-color: #ffffff;
+}
+
+/* footer */
+
+.footer {
+  background-color: var(--footer-bg-color);
+}
+
+.footer-text-color {
+  color: var(--footer-text-color);
+}
+
+/* portfolio */
+
+.button.portfolio {
+  background-color: var(--button-bg-color);
+  color: var(--accent-color);
+}
+
+.button:hover,
+.button:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+
+/* menu list */
+
+/* footer */
