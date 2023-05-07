@@ -246,14 +246,28 @@ body {
 
 .our-team {
   background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
-.section-subtitle.services {
-  text-align: center;
+.our-team .section-title {
+  margin-bottom: 72px;
+}
+
+.our-team .section-subtitle {
+  margin-top: 32px;
+  margin-bottom: 8px;
 }
 
 .our-team-item {
   background-color: #ffffff;
+  text-align: center;
+  padding-bottom: 32px;
+}
+
+.our-team .list {
+  display: flex;
+  gap: 24px;
 }
 
 /* footer */
