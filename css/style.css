@@ -297,15 +297,32 @@ body {
 
 /* portfolio */
 
-.button.portfolio {
+.portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
+.filters.list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+
+.button-portfolio {
   background-color: var(--button-bg-color);
   color: var(--accent-color);
+  padding: 12px 24px;
+  min-width: 0;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 }
 
 .button:hover,
 .button:focus {
   color: #ffffff;
   background-color: #404bbf;
+  border: 1px solid transparent;
 }
 
 /* menu list */
