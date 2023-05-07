@@ -281,10 +281,17 @@ body {
 /* footer */
 
 .footer {
+  padding: 100px 0;
   background-color: var(--footer-bg-color);
 }
 
-.footer-text-color {
+.footer .logo.link {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.footer-text {
+  max-width: 264px;
   color: var(--footer-text-color);
 }
 
