@@ -254,15 +254,23 @@ body {
   margin-bottom: 72px;
 }
 
-.our-team .section-subtitle {
-  margin-top: 32px;
+.our-team-item {
+  background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-info {
+  padding: 32px 16px;
+}
+
+.team-info .section-subtitle {
+  text-align: center;
   margin-bottom: 8px;
 }
 
-.our-team-item {
-  background-color: #ffffff;
+.team-info .section-text {
   text-align: center;
-  padding-bottom: 32px;
 }
 
 .our-team .list {
