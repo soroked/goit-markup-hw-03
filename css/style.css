@@ -84,7 +84,8 @@ body {
 
 .page-header > .container {
   display: flex;
-  padding: 24px 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .page-nav {
