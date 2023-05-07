@@ -41,7 +41,7 @@ body {
 }
 
 .container {
-  display: flex;
+  /* display: flex; */
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -82,9 +82,15 @@ body {
   border-bottom: 1px solid #e7e9fc;
 }
 
+.page-header > .container {
+  display: flex;
+  padding: 24px 0;
+}
+
 .page-nav {
   display: flex;
   align-items: center;
+  margin-right: 332px;
 }
 
 .logo {
@@ -152,10 +158,15 @@ body {
 /* hero */
 
 .hero {
+  padding: 188px 0;
   background-color: var(--hero-bg-color);
 }
 
 .hero-title {
+  max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
+
   font-family: 'Roboto';
   font-weight: 700;
   font-size: 56px;
@@ -169,6 +180,7 @@ body {
   display: block;
   min-width: 169px;
   height: 56px;
+  margin: 0 auto;
   padding: 16px 32px;
 
   font-family: 'Roboto', sans-serif;
