@@ -206,6 +206,24 @@ body {
 
 /* secction-2-advantages */
 
+.advantages .section-title {
+  margin-bottom: 8px;
+}
+
+.advantages {
+  padding: 120px 0;
+}
+
+.advantages-list {
+  display: flex;
+  gap: 24px;
+}
+
+.advantages-item {
+  /* 100% -> 1158px(container) - 15*2(padding) */
+  width: calc((100% - 72px) / 4);
+}
+
 /* section-3-services */
 
 /* section-4-about-us */
