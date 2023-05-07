@@ -41,9 +41,10 @@ body {
 }
 
 .container {
-  width: 1128px;
+  display: flex;
+  width: 1158px;
   margin: 0 auto;
-  padding: 0 12px;
+  padding: 0 15px;
 }
 
 .section-title {
@@ -77,7 +78,18 @@ body {
 
 /* header */
 
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.page-nav {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
+  margin-right: 76px;
+
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -91,7 +103,14 @@ body {
   color: var(--title-text-color);
 }
 
+.nav {
+  display: flex;
+  gap: 40px;
+}
+
 .nav-item {
+  padding: 24px 0;
+
   font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
@@ -106,6 +125,11 @@ body {
 }
 
 /* this rule is duplicated in nav-conto-item */
+.contact-list {
+  display: flex;
+  gap: 40px;
+}
+
 .nav-contact {
   font-style: normal;
 }
@@ -142,13 +166,23 @@ body {
 }
 
 .button {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  padding: 16px 32px;
+
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  text-align: center;
+
   color: #ffffff;
   background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
+  border-radius: 4px;
   cursor: pointer;
 }
 
